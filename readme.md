@@ -1,7 +1,5 @@
 Стек:
-nginx, php7.2-fpm, postgres
-
-sudo apt-get install supervisor
+nginx, php7.2-fpm, postgres, Laravel 5.4, Supervisor
 
 $ sudo nano /etc/supervisor/conf.d/laravel-worker.conf
 
