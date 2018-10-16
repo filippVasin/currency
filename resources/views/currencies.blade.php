@@ -15,7 +15,7 @@
                         <th>Количество</th>
                     </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="currency_table">
                     @if($currencies)
                         @foreach($currencies as $item)
                             <tr>
